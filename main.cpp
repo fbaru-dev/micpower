@@ -61,6 +61,8 @@ int main()
   double fTimeStart, fTimeEnd;
   
   fTimeStart = omp_get_wtime();
+//Compute the PI using the definition as integral
+// \int_0^1 4/(1+x*x) dx
   for (int j = 0; j < R; ++j) {
 #pragma omp parallel for private(fX) reduction(+:fSum)
     for (int i = 0; i < N; ++i) {
