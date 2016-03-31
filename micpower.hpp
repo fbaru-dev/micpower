@@ -15,7 +15,7 @@
 #define MICPOWER_MAX_COUNTERS 16
 #define PATH_TO_FILE "/sys/class/micras/power"
 #define LOG_FILE "mic_energy.log"
-#define MICRO_SECOND_MULTIPLIER  1000  // 1 millisecond = 1,000 Microseconds
+#define MICRO_SECOND_MULTIPLIER  1000  // 1 millisecond = 1000 Microseconds
 #define SAMPLING_RATE_MS 500
 
 class micpower {
