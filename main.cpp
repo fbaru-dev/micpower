@@ -24,8 +24,8 @@
 #include <iostream>       // std::cout, std::endl
 #include <omp.h>
 
-#define N 10000000
-#define R 10000
+#define N 10000000	// Number of intervals
+#define R 10000		// Number of repetitions
 double f(double a) { return (4.0 / (1.0 + a*a));} 
 
 int main() 
