@@ -1,9 +1,9 @@
 # Micpower
 ## Description
 This is a simplified program to read the energy power consumption of the Intel Xeon Phi Card based on the KNC architecture.
-This program is intended to experiment the way how one can take energy measuments on the © Intel many integrated core architecture (MIC), in particular the Knights Corner product.
+This program is intended to experiment the way how one can take energy measuments on the Intel® many integrated core architecture (MIC), in particular the Knights Corner product.
 The code has been tested on Intel Xeon Phi (MIC) coprocessors 5110P with 60 cores @ 1.1 GHz provided
-at LRZ (Leibniz Supercomputing Centre). More information about the system here: [Supermic] (https://www.lrz.de/services/compute/supermuc/supermic/)
+at LRZ (Leibniz Supercomputing Centre). More information about the system here: [Supermic](https://www.lrz.de/services/compute/supermuc/supermic/). This code has been developed during the Intel® Parallel Computing Center [IPCC](https://software.intel.com/articles/intel-parallel-computing-center-at-leibniz-supercomputing-centre-and-technische-universit-t) initiative at Leibniz Supercomputing.
 
 ## Requirements
 - 64-bit Intel system for compiling
